@@ -1,0 +1,8 @@
+# 使用方向表示
+python cw_attack_pkl.py -d /path/to/ts_mon.pkl -a 0 -o model_direction.h5
+
+# 使用方向时序表示
+python cw_attack_pkl.py -d /path/to/ts_mon.pkl -a 1 -o model_dt.h5
+
+# 使用时序表示
+python cw_attack_pkl.py -d /path/to/ts_mon.pkl -a 2 -o model_timing.h5
